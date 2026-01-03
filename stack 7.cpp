@@ -52,9 +52,6 @@ class stack{
 	}
 };
 int main(){
-	cout<<"***********************************"<<endl;
-	cout<<"Fiza noor_19_BSCS(A)"<<endl;
-	cout<<"***********************************"<<endl;
 	stack o;
 	o.push('D',1,"CS");
 	o.push('S',2,"IT");
@@ -63,4 +60,5 @@ int main(){
 	o.pop();
 	o.pop();
 	o.display();
+
 }
